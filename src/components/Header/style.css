@@ -1,0 +1,18 @@
+@import '../shared/vars.css';
+nav {
+  width: 100%;
+  padding: 39px 61px 61px;
+  border-bottom: $border;
+}
+
+.leftSide {
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+.rightSide {
+  text-align: right;
+  float: right;
+  width: 50%;
+}

@@ -1,0 +1,18 @@
+@import "../shared/vars.css";
+
+.index {
+
+}
+
+
+.appShell {
+  position: absolute;
+  left: $menuWidth;
+  width: calc(100vw - $menuWidth);
+}
+
+.indexAppContent {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}

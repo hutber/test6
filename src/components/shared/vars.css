@@ -1,0 +1,14 @@
+// Core Colours
+$textColour:      #000;
+$menuColour:      #bfc5d1;
+$wtext:           #FFF;
+$altMain:         #55DDB0;
+$menuTextColor:   #969dae;
+$linkColour:      #57c9e8;
+
+//nav/menu
+$navHeight:       47px;
+$menuWidth:       282px;
+
+//Borders
+$border: 1px solid #DDD;

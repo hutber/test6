@@ -1,0 +1,66 @@
+@import "../shared/vars.css";
+
+.menu {
+  color: $wtext;
+  border-right: $border;
+  position: absolute;
+  left: 0;
+  height: 100vw;
+  width: $menuWidth;
+  padding: 30px 10px 30px 48px;
+
+  h2 {
+    color: $menuTextColor;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+}
+
+.selected {
+  margin-bottom: 35px !important;
+  h2 {
+    color: $linkColour;
+  }
+}
+
+.logo {
+  text-indent: -9999em;
+  background: url('./img/logo.png') no-repeat;
+  background-size: 50%;
+  height: 37px;
+  width: 247px;
+  margin-bottom: 77px;
+}
+
+.menuOpen {
+  //right: 0;
+}
+
+.nav {
+  position: relative;
+  line-height: 47px;
+  width: 100%;
+  clear: both;
+  margin-bottom: 53px;
+  a {
+    display: block;
+    line-height: 19px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    text-align: left;
+    color: $menuTextColor;
+    letter-spacing: 0.4px;
+
+    i {
+      font-size: 18px;
+      float: left;
+      margin-right: 27px;
+    }
+  }
+}
+
+.menuContent {
+  text-align: center;
+}
